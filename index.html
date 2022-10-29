@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Shopee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <!-- nav -->
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item navbar-item--qr item-separate">
+                            Vào cửa hàng trên ứng dụng N-shop
+                            <div class="navbar-qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="qr-img">
+                                <div class="qr-apps">
+                                    <a href="" class="qr-link">
+                                        <img src="./assets/img/googlestore.png" alt="Google Store" class="qr-download-img">
+                                    </a>
+                                    <a href="" class="qr-link">
+                                        <img src="./assets/img/appstore.png" alt="App Store" class="qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item ">
+                            <span class="item-nohover">Kết nối</span>  
+                        </li>
+                        <a href="" class="navbar-icon-link">
+                            <i class="navbar-icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="" class="navbar-icon-link">
+                            <i class=" navbar-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </ul>
+                    
+                    <ul class="navbar-list">
+                        <li class="navbar-item navbar-item--notify">
+                            <a href="" class="item-link">
+                                <i class=" navbar-icon fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- Notify -->
+                            <div class="navbar-notify">
+                                <header class="notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="notify-list">
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/Ram.jpg" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name">RAM Lexar 8GB (8GB x1) Bus 2666 DDR4</span>
+                                                <span class="notify-description">Mô tả RAM Lexar 8GB (8GB x1) Bus 2666 DDR4</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/SSD1TKingstone.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name">Ổ Cứng SSD 1TB 2TB Kingston NV1 NVMe M2 PCIe 3D-NAND Gen3 x4 2280 (SNVS1000G SNVS2000G)</span>
+                                                <span class="notify-description">Mô tả Ổ Cứng SSD 1TB 2TB Kingston NV1 NVMe M2 PCIe 3D-NAND Gen3 x4 2280 (SNVS1000G SNVS2000G)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-item notify-item--viewed">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/SSD500GSS.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name">SSD Samsung 980 PCIe NVMe V-NAND M.2 2280 500GB MZ-V8V500BW</span>
+                                                <span class="notify-description">Mô tả SSD Samsung 980 PCIe NVMe V-NAND M.2 2280 500GB MZ-V8V500BW</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-item">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/MacbookProM1.png" alt="" class="notify-img">
+                                            <div class="notify-info">
+                                                <span class="notify-name">Laptop Apple Macbook Pro M1 MAX Z14Z000WY (10-Core CPU, 32-Core GPU, 64GB RAM, 4TB SSD, 16.2-inch, Bạc, Mac-OS)</span>
+                                                <span class="notify-description">Mô tả Laptop Apple Macbook Pro M1 MAX Z14Z000WY (10-Core CPU, 32-Core GPU, 64GB RAM, 4TB SSD, 16.2-inch, Bạc, Mac-OS)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="notify-footer">
+                                    <a href="" class="notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="item-link">
+                                <i class=" navbar-icon fa-regular fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="navbar-item item-strong item-separate js-register">Đăng ký</li>
+                        <li class="navbar-item item-strong js-login">Đăng nhập</li>
+                        <!-- header navbar user -->
+                        <li class="navbar-item navbar-user">
+                            <a href="" class="navbar-user-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <span class="navbar-user-name">Nguyễn Nhật Ninh</span>
+                            
+                            <ul class="navbar-user-menu">
+                                <li class="user-menu-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="user-menu-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="user-menu-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="user-menu-item user-menu-item--separate ">
+                                    <a href="">Đăng xuất
+                                        <i class="fa-solid fa-right-from-bracket"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- header bottom -->
+                <div class="header-bottom">
+                    <div class="header-logo">
+                        <a href="/" class="header-logo-icon" >
+                        N-<i class="fa-brands fa-shopify"></i>hop
+                        </a> 
+                    </div>
+                    <div class="header-search">
+                        <div class="search-input-wrap">
+                            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm">
+                            <!-- search history -->
+                            <div class="search-history">
+                                <h3 class="history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="history-list">
+                                    <li class="history-item">
+                                        <a href="">SSD Laptop 512G</a>
+                                    </li>
+                                    <li class="history-item">
+                                        <a href="">SSD Laptop 256G</a>
+                                    </li>
+                                    <li class="history-item">
+                                        <a href="">RAM Laptop 8G</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search-select">
+                            <span class="select-label js-label ">Trong shop</span>
+                            <span class="select-another-label js-another-label close">Ngoài shop</span>
+                            <i class="select-icon fa-solid fa-angle-down"></i>
+                            <ul class="search-option">
+                                <li class="option-item js-option-label option-item-active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="option-item js-option-another-label">
+                                    <span>Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>  
+                        </div>
+                        <button class="search-btn">
+                            <i class="search-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- cart -->
+                    <div class="header-cart">
+                        <div class="header-cart-wrap">
+                            <i class="header-cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header-cart-notice">3</span>
+                            <!-- cart-list--no-cart -->
+                            <div class="cart-list ">
+                                <img src="./assets/img/no-cart.png" alt="" class="no-cart-img">
+                                <span class="no-cart-msg">Chưa có sản phẩm</span>
+
+                                <h4 class="cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="cart-list-item">
+                                    <!-- cart item -->
+                                    <li class="cart-item">
+                                        <img src="./assets/img/SSD500GSS.png" alt="" class="cart-img">
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">SSD Samsung 980 PCIe NVMe M.2 500GB</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">1.350.000 đ</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qut">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    Phân loại: Samsung, 512G
+                                                </span>
+                                                <span class="cart-item-delete">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img src="./assets/img/Chuot LOGI G502.png" alt="" class="cart-img">
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">Chuột Logitech G502 X Plus - Đen</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">3.590.000 đ</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qut">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    Phân loại: G502, Đen
+                                                </span>
+                                                <span class="cart-item-delete">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img src="./assets/img/SSD-GIGABYTE-1T.png" alt="" class="cart-img">
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">SSD Gigabyte 1TB M.2 PCle NVMe Gen3 x4</h5>
+                                                <div class="cart-item-price-wrap">
+                                                    <span class="cart-item-price">3.150.000 đ</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-qut">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    Phân loại: Gigabyte, 1T
+                                                </span>
+                                                <span class="cart-item-delete">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header-cart-view btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category-heading">
+                                <i class="category-heading-icon fa-solid fa-list"></i>
+                                Danh Mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item js-category-item category-item--active">
+                                    <a href="#" class="category-item-link">SSD</a>
+                                </li>
+                                <li class="category-item js-category-item ">
+                                    <a href="#" class="category-item-link">RAM</a>
+                                </li>
+                                <li class="category-item js-category-item">
+                                    <a href="#" class="category-item-link">CPU</a>
+                                </li>
+                                <li class="category-item js-category-item">
+                                    <a href="#" class="category-item-link">Chuột</a>
+                                </li>
+                                <li class="category-item js-category-item">
+                                    <a href="#" class="category-item-link">Bàn phím</a>
+                                </li>
+                            </ul>   
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="filter-label">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn">Phổ biến</button>
+                            <button class="home-filter-btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter-btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input-label">Giá</span>
+                                <i class="select-input-icon fa-solid fa-angle-down"></i>   
+                                <ul class="select-input-list">
+                                    <li class="select-input-item">
+                                        <a href="" class="select-input-link">Giá : Từ thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input-item">
+                                        <a href="" class="select-input-link">Giá : Từ cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="filter-page">
+                                <span class="filter-page-num">
+                                    <span class="page-current">1</span>/14
+                                </span>
+
+                                <span class="page-control">
+                                    <a href="" class="page-btn page-btn--disable">
+                                    <i class="page-icon select-icon fa-solid fa-angle-left"></i>   
+                                    </a>
+                                    <a href="" class="page-btn">
+                                    <i class="page-icon select-icon fa-solid fa-angle-right"></i>   
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <div class="product-item-img" style="background-image: url(https://cf.shopee.vn/file/2245f5dfb49c4784118fad4a6000913d);"></div>
+                                        <h5 class="product-item-name">Ổ cứng SSD Silicon Power 128GB /256GB /512GB SATA 3 2.5" A55 | Bảo hành 36 Tháng</h5>
+                                        <div class="product-item-price">
+                                            <div class="item-price-no-ship">
+                                                <span class="price-old">1.490.000đ</span>
+                                                <span class="price-current">870.000đ</span>
+                                            </div>
+                                            
+                                            <img src="./assets/img/Freeship.png" alt="" class="price-ship-free">
+                                        </div>
+                                        <div class="product-item-action">
+                                            <div class="product-item-like">
+                                                <i class="like-icon-empty js-like-empty item-like--actvied fa-regular fa-heart"></i>
+                                                <i class="like-icon-fill js-like-fill fa-solid fa-heart"></i>
+                                            </div>
+                                            <div class="product-item-rating">
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="rating-star-gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold">22 Đã bán</span>
+                                        </div>
+                                        <div class="product-item-origin">
+                                            <span class="item-brand">Whoo</span>
+                                            <span class="item-origin-name">Hoa Kỳ</span>
+                                        </div>
+                                        <div class="product-item-favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="product-item-sale-off">
+                                            <span class="sale-off-percent">49%</span>
+                                            <span class="sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">
+                                <i class="pagination-item-icon fa-solid fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item-link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item-link">
+                                <i class="pagination-item-icon fa-solid fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer-heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Trung tâm trợ giúp</a>                                               
+                            </li>
+                            <li class="footer-item">                        
+                                <a href="" class="footer-item-link">N-shop Mall</a>                                               
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">Hướng dẫn mua hàng</a>                        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer-heading">Về N-shop</h3>
+                        <ul class="footer-list">                   
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">Giới thiệu</a>                                               
+                            </li>
+                            <li class="footer-item">                        
+                                <a href="" class="footer-item-link">Tuyển dụng</a>                                               
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">Điều khoản</a>                        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer-heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">SSD</a>                                               
+                            </li>
+                            <li class="footer-item">                        
+                                <a href="" class="footer-item-link">RAM</a>                                               
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">CPU</a>                        
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">Chuột</a>                        
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">Bàn phím</a>                        
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer-heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer-list">                    
+                            <li class="footer-item">
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>                                               
+                            </li>
+                            <li class="footer-item">                        
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>                                               
+                            </li>
+                            <li class="footer-item">                    
+                                <a href="" class="footer-item-link">
+                                    <i class="footer-item-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>                          
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer-heading">Vào cửa hàng trên ứng dụng N-shop</h3>
+                        <div class="footer-dowload">
+                            <img src="./assets/img/qr_code.png" alt="Dowload QR" class="footer-dowload-qr">
+                            <div class="footer-dowload-apps">
+                                <a href="" class="footer-dowload-apps-link">
+                                    <img src="./assets/img/googlestore.png" alt="Google Play" class="footer-dowload-app-icon">
+                                </a>
+                                <a href="" class="footer-dowload-apps-link">
+                                    <img src="./assets/img/appstore.png" alt="App Store" class="footer-dowload-app-icon">                       
+                                </a>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="grid">                    
+                    <p class="footer-text">© 2020 - Bản quyền thuộc về Công ty 3N</p>    
+                </div>                
+            </div> 
+        </footer>
+    </div>
+    <!-- modal -->
+    <div class="modal js-modal ">
+        <div class="modal-overlay"></div>
+        <div class="modal-body js-modal-body">
+                <!-- Register form -->
+                <div class="auth-form__register js-form-register ">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn js-switch-login">Đăng nhập</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Nhập email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">Bằng việc đăng kí, bạn đã đồng ý với N-shop về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> & 
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>   
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal btn--back js-back-registor">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG KÝ</button>
+                        </div> 
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btn social--facebook btn-size-s btn-icon">
+                            <i class="social-icon fa-brands fa-square-facebook"></i>
+                            <span class="social-title">
+                                Kết nối với Facebook
+                            </span>
+                            
+                        </a>
+                        <a href="" class="btn social--google btn-size-s btn-icon">
+                            <img src="./assets/img/google.png" alt="" class="google-img">                                                      
+                            <span class="social-title">
+                                Kết nối với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+                <!-- Login form -->
+                <div class="auth-form__login js-form-login ">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn js-switch-register">Đăng ký</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+        
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                                
+                            </div>  
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal btn--back js-back-login">TRỞ LẠI</button>
+                            <button class="btn btn--primary ">ĐĂNG NHẬP</button>
+                        </div> 
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btn social--facebook btn-size-s btn-icon">
+                            <i class="social-icon fa-brands fa-square-facebook"></i>
+                            <span class="social-title">
+                                Đăng nhập với Facebook
+                            </span>
+                            
+                        </a>
+                        <a href="" class="btn social--google btn-size-s btn-icon">
+                            <img src="./assets/img/google.png" alt="" class="google-img">                                                      
+                            <span class="social-title">
+                                Đăng nhập với Google
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- JS modal register/login -->
+    <script>
+        const btnRegister = document.querySelector('.js-register')
+        const btnLogin = document.querySelector('.js-login')
+        const btnBackRegister = document.querySelector('.js-back-registor')
+        const btnBackLogin = document.querySelector('.js-back-login')
+        const btnSwitchRegister = document.querySelector('.js-switch-register')
+        const btnSwitchLogin = document.querySelector('.js-switch-login')
+        const modal = document.querySelector('.js-modal')
+        const modalBody = document.querySelector('.js-modal-body')
+        const formRegister = document.querySelector('.js-form-register')
+        const formLogin = document.querySelector('.js-form-login')
+
+        function showRegister () {
+            modal.classList.add('register')
+            formRegister.classList.add('register')
+        }
+
+        function showLogin () {
+            modal.classList.add('login')
+            formLogin.classList.add('login')
+        }
+
+        function removeRegister () {
+            modal.classList.remove('register')
+            formRegister.classList.remove('register')
+        }
+        
+        function removeLogin () {
+            modal.classList.remove('login')
+            formLogin.classList.remove('login')
+        }
+
+        btnRegister.addEventListener('click', showRegister)
+        btnLogin.addEventListener('click', showLogin)
+        btnBackLogin.addEventListener('click',removeLogin)
+        btnBackRegister.addEventListener('click',removeRegister)
+        btnSwitchLogin.addEventListener('click',removeRegister)
+        btnSwitchLogin.addEventListener('click',showLogin)
+        btnSwitchRegister.addEventListener('click',removeLogin)
+        btnSwitchRegister.addEventListener('click',showRegister)
+
+        modal.addEventListener('click', removeLogin)
+        modal.addEventListener('click', removeRegister)
+        modalBody.addEventListener('click', function(event) {
+            event.stopPropagation()
+        } )
+    </script>
+    <!-- JS in/outside shop -->
+    <script>
+        const label = document.querySelector('.js-label')
+        const anotherLabel = document.querySelector('.js-another-label')
+        const optionAnotherLabel = document.querySelector('.js-option-another-label')
+        const optionLabel = document.querySelector('.js-option-label')
+        
+        function showAnotherLabel() {
+            label.classList.add('close')
+            anotherLabel.classList.remove('close')
+            optionAnotherLabel.classList.add('option-item-active')
+            optionLabel.classList.remove('option-item-active')
+        }
+        function showLabel() {
+            label.classList.remove('close')
+            anotherLabel.classList.add('close')
+            optionAnotherLabel.classList.remove('option-item-active')
+            optionLabel.classList.add('option-item-active')
+        }
+        optionAnotherLabel.addEventListener('click',showAnotherLabel)
+        optionLabel.addEventListener('click',showLabel)
+    </script>
+    <!-- JS category list -->
+    <script>
+        const categoryItems = document.querySelector('.js-category-item')
+        
+        function focusListCategory () {
+            categoryItems.classList.add('category-item--active')
+        }
+
+        for ( const categoryItem of categoryItems ) {
+            categoryItem.addEventListener('click', focusListCategory)
+        }
+    </script>
+    <!-- JS like icon -->
+    <script>
+        
+        const likeEmpty = document.querySelector('.js-like-empty')
+        const likeFill = document.querySelector('.js-like-fill')
+        
+
+        function showLiked () {
+            likeEmpty.classList.remove('item-like--actvied')
+            likeFill.classList.add('item-like--actvied')
+        }
+        function showUnliked () {
+            likeFill.classList.remove('item-like--actvied')
+            likeEmpty.classList.add('item-like--actvied')
+        }
+
+        likeEmpty.addEventListener('click',showLiked)
+        likeFill.addEventListener('click',showUnliked)
+    </script>
+</body>
+</html>
