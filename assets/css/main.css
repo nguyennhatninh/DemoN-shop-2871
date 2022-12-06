@@ -966,12 +966,14 @@
 }
 
 .category-list {
-    padding: 0 0 8px 0;
+    padding: 0;
+    margin: 0;
     list-style: none;
     margin-left: 10px;
 }
 .category-item {
     position: relative;
+    padding: 2px 0;
 }
 .category-item:first-child::before {
     display: none;

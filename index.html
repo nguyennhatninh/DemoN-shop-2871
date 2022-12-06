@@ -1031,34 +1031,32 @@
     </script>
     <!-- JS category list -->
     <script>
-        const categoryItems = document.querySelector('.js-category-item')
+        const categoryItems = document.querySelectorAll('.js-category-item')
         
-        function focusListCategory () {
-            categoryItems.classList.add('category-item--active')
-        }
-
         for ( const categoryItem of categoryItems ) {
-            categoryItem.addEventListener('click', focusListCategory)
+            categoryItem.addEventListener('click', function focusListCategory () {
+            categoryItem.classList.toggle('category-item--active')
+        })
         }
     </script>
     <!-- JS like icon -->
     <script>
         
-        const likeEmpty = document.querySelector('.js-like-empty')
-        const likeFill = document.querySelector('.js-like-fill')
-        
+        const likeEmptys = document.querySelectorAll('.js-like-empty')
+        const likeFills = document.querySelectorAll('.js-like-fill')
 
-        function showLiked () {
+        for ( const likeEmpty of likeEmptys ) {
+            likeEmpty.addEventListener('click', function showLiked () {
             likeEmpty.classList.remove('item-like--actvied')
-            likeFill.classList.add('item-like--actvied')
+            likeEmpty.nextElementSibling.classList.add('item-like--actvied')
+        })
         }
-        function showUnliked () {
+        for ( const likeFill of likeFills ) {
+            likeFill.addEventListener('click', function showLiked () {
             likeFill.classList.remove('item-like--actvied')
-            likeEmpty.classList.add('item-like--actvied')
+            likeFill.previousElementSibling.classList.add('item-like--actvied')
+        })
         }
-
-        likeEmpty.addEventListener('click',showLiked)
-        likeFill.addEventListener('click',showUnliked)
     </script>
 </body>
 </html>
